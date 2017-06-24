@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Questão 1 - Atividade JSF</title>
+</h:head>
+<h:body>
+	<h:form method="post">
+		<h:inputText id="campo1" type="text" value="#{nomesBean.campo1}">
+		</h:inputText>
+
+		<br />
+
+
+		<h:inputText id="campo2" type="text" value="#{nomesBean.campo2}">
+		</h:inputText>
+		<br />
+
+		<h:commandButton value="Inverter os Nomes"
+			action="#{nomesBean.inverterNomes}" />
+		<br />
+		<br />
+		<br />
+
+		<a href="index.xhtml">Voltar</a>
+	</h:form>
+</h:body>
+</html>
