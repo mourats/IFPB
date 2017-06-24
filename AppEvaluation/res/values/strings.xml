@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">App Evaluation</string>
+    <string name="nome_avaliador">Nome do Avaliador</string>
+    <string name="titulo_trabalho">Titulo do Trabalho</string>
+    <string name="comentario">Comentários</string>
+    <string name="button">Avaliar</string>
+    <string name="button2">Contar Avaliações</string>
+    <string name="nota">Nota</string>
+    <string name="boas_vindas">Seja Bem-Vindo á Aplicação de Avaliação!</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    
+
+</resources>
