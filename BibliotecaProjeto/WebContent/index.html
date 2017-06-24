@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BIBLIOTECA</title>
+<style type="text/css">
+<!--
+h2 {
+	font-family: arial;
+}
+
+h5 {
+	font-family: arial;
+}
+
+body {
+	background-color: #DCDCDC;
+	background-repeat: no-repeat;
+}
+
+input {
+	margin: 3px;
+}
+
+#geral {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	margin-left: -250px;
+	margin-top: -150px;
+	text-align: center;
+}
+
+table, td, th {
+	border: 2px solid #707070;
+	background-color: #989898;
+}
+-->
+</style>
+</head>
+<body>
+	<div id="geral">
+		<table>
+			<tr>
+				<td>
+					<h2>Login na BIBLIOTECA:</h2>
+				</td>
+				<td>
+					<form action="LoginServlet.do" method="post">
+						<h5>
+							<img src="login.png" width="25" height="25"> Usuario:
+						</h5>
+						<p>
+							<input type="text" name="nome">
+						</p>
+						<h5>
+							<img src="key.png" width="25" height="25"> Senha:
+						</h5>
+						<input type="password" name="senha">
+						<p>
+							<input type="submit" value="LOGIN" name="logar">
+						<p>
+					</form>
+				</td>
+			</tr>
+		</table>
+		<p>
+		<table>
+			<tr>
+				<td><a href="Consulta.jsp">Consultar um vólume</a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
