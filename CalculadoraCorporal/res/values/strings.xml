@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculadora Corporal</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login </string>
+    <string name="senha">Senha </string>
+    <string name="enviar">Enviar </string>
+    <string name="opcoesMenu">Escolha uma das opções por favor: </string>
+    <string name="informe_peso">Informe sua peso:  </string>
+    <string name="informe_altura">Informe sua altura: </string>
+    <string name="calcularIMC">Calcular o IMC!  </string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="boas_vindas">Seja Bem-Vindo á Calculadora Corporal!</string>
+    <string name="informe_data_nasc">Informe sua data de nascimento:  </string>
+    <string name="informe_sexo">Informe o seu sexo: </string>
+    <string name="calcularPA">Calcular o PA!  </string>
+    <string name="calcularVCT">Calcular o VCT!  </string>
+    <string name="nivelEsporte1">Nível do Esporte 1  </string>
+    <string name="nivelEsporte2">Nível do Esporte 2  </string>
+    <string name="nivelEsporte3">Nível do Esporte 3  </string>
+
+</resources>
