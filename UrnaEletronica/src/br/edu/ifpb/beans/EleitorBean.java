@@ -2,6 +2,8 @@ package br.edu.ifpb.beans;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
+
 import java.io.IOException;
 import br.edu.ifpb.dao.EleitorDAO;
 import br.edu.ifpb.entidades.Eleitor;

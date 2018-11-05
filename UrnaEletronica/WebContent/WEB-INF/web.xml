@@ -8,7 +8,6 @@
 		<welcome-file>index.xhtml</welcome-file>
 	</welcome-file-list>
 
-<<<<<<< HEAD
 	<servlet>
 		<servlet-name>FacesServlet</servlet-name>
 		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
@@ -40,33 +39,4 @@
 		<listener-class>com.sun.faces.application.WebappLifecycleListener</listener-class>
 	</listener>
 </web-app>
-=======
 
-	<servlet-mapping>
-		<servlet-name>Faces Servlet</servlet-name>
-		<url-pattern>*.xhtml</url-pattern>
-	</servlet-mapping>
-	<session-config>
-		<session-timeout>30</session-timeout>
-	</session-config>
-
-	<listener> <listener-class>br.edu.ifpb.hibernate.HibernateListener</listener-class> 
-		</listener>
-	<servlet>
-		<servlet-name>Faces Servlet</servlet-name>
-		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-
-	<context-param>
-		<param-name>javax.faces.PROJECT_STAGE</param-name>
-		<param-value>Development</param-value>
-	</context-param>
-
-	<context-param>
-		<param-name>primefaces.THEME</param-name>
-		<param-value>bootstrap</param-value>
-	</context-param>
-
-</web-app>
->>>>>>> origin/master
